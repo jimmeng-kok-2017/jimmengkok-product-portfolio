@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Kok Jim Meng — Data Scientist & AI Product Manager</title>
+<title>Kok Jim Meng — Data Scientist | Geospatial Analytics & AI Solutions</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
@@ -214,6 +214,79 @@ h2.section-title{
 .highlight-icon.amber{background:rgba(245,158,11,0.12);color:var(--amber)}
 .highlight-text strong{display:block;font-size:14px;font-weight:500;color:var(--text);margin-bottom:2px}
 .highlight-text span{font-size:13px;color:var(--text3)}
+
+/* ── CERTIFICATIONS ── */
+#certifications .cert-card{
+  display:grid;
+  grid-template-columns:110px 1fr;
+  gap:1.5rem;
+  align-items:center;
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:var(--rl);
+  padding:2rem;
+}
+.cert-mark{
+  width:100px;height:100px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:var(--rl);
+  background:rgba(124,109,250,0.12);
+  border:1px solid rgba(124,109,250,0.25);
+  color:var(--accent2);
+  font-family:'DM Mono',monospace;
+  font-size:13px;
+  font-weight:500;
+  text-align:center;
+  line-height:1.5;
+}
+.cert-provider{
+  font-family:'DM Mono',monospace;
+  font-size:11px;
+  color:var(--teal);
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  margin-bottom:0.5rem;
+}
+.cert-title{
+  font-family:'DM Serif Display',serif;
+  font-size:1.45rem;
+  color:var(--text);
+  line-height:1.25;
+  margin-bottom:0.5rem;
+}
+.cert-desc{
+  font-size:0.9rem;
+  color:var(--text2);
+  line-height:1.8;
+  max-width:760px;
+}
+.cert-meta{
+  display:flex;flex-wrap:wrap;gap:8px;
+  margin-top:1rem;
+}
+.cert-meta span{
+  font-family:'DM Mono',monospace;
+  font-size:11px;
+  color:var(--text3);
+  border:1px solid var(--border);
+  border-radius:100px;
+  padding:4px 10px;
+}
+.cert-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:1.25rem}
+.cert-link{
+  display:inline-flex;align-items:center;
+  padding:8px 14px;
+  border:1px solid var(--border2);
+  border-radius:var(--r);
+  color:var(--accent2);
+  text-decoration:none;
+  font-size:13px;
+}
+.cert-link:hover{border-color:var(--accent);color:var(--text)}
+@media(max-width:700px){
+  #certifications .cert-card{grid-template-columns:1fr}
+  .cert-mark{width:84px;height:84px}
+}
 
 /* ── EXPERIENCE ── */
 #experience .exp-list{display:flex;flex-direction:column;gap:0}
@@ -473,6 +546,7 @@ footer{
   <span class="nav-logo">// portfolio</span>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
+    <li><a href="#certifications">Certifications</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -482,10 +556,10 @@ footer{
 
 <!-- HERO -->
 <div id="hero">
-  <div class="hero-tag">Open to AI Product Manager and Geospatial Analytics/GIS roles · Singapore</div>
+  <div class="hero-tag">Geospatial Data Products · GIS · Data Science · AI/ML · Singapore</div>
   <h1 class="hero-name">Kok Jim Meng<br/>Data Scientist<br/><em>building products</em><br/>that think.</h1>
   <p class="hero-desc">
-    Data Scientist at HDB's DSAI Centre of Excellence, building GIS transport models, stakeholder dashboards, and GenAI applications that inform how millions of Singaporeans live. Transitioning into AI Product Management.
+    Data Scientist with experience in geospatial analytics, GIS transport modelling, stakeholder dashboards, and Generative AI applications. AWS Certified Machine Learning Engineer – Associate, with knowledge of machine learning algorithms, model evaluation, and monitoring. I build data-driven solutions that translate complex technical capabilities into practical insights and real-world impact.
   </p>
   <div class="hero-cta">
     <a href="#projects" class="btn btn-primary">View Projects →</a>
@@ -526,7 +600,7 @@ footer{
         My work sits at the intersection of <strong>spatial analytics, AI/ML, and product thinking</strong>. I don't just model — I frame the problem, own the architecture, and communicate impact to stakeholders across HDB teams.
       </p>
       <p>
-        I'm now targeting <strong>AI Product Manager roles</strong> where I can apply this technical depth to shape product strategy, drive discovery, and ship AI-powered tools that solve real user problems at scale.
+        I’m passionate about translating technical capabilities in geospatial, data science, and AI into impactful products and solutions, bridging business needs, technology, and user experience.
       </p>
     </div>
     <div class="about-highlights">
@@ -548,8 +622,37 @@ footer{
         <div class="highlight-icon amber">◇</div>
         <div class="highlight-text">
           <strong>Public sector — HDB & URA</strong>
-          <span>Currently at HDB (2022–present) · previously interned at URA (2021). Portfolio products are from HDB.</span>
+          <span>Professional experience at HDB (2022–2026) · Previous internship at URA (2021). Selected portfolio projects were developed during my time at HDB.</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="reveal">
+  <div class="section-label">// 02 · Certifications</div>
+  <h2 class="section-title">Credentials that strengthen the work.</h2>
+  <p class="section-sub">Professional certification supporting my applied experience across data science, machine learning and AI solutions.</p>
+
+  <div class="cert-card">
+    <div class="cert-mark">AWS<br/>CERTIFIED<br/>ML ENGINEER</div>
+    <div>
+      <div class="cert-provider">Amazon Web Services</div>
+      <h3 class="cert-title">AWS Certified Machine Learning Engineer – Associate</h3>
+      <p class="cert-desc">
+        Certification covering the machine learning engineering lifecycle, including data preparation, model development, deployment, monitoring and maintenance. It also validates knowledge of model evaluation, responsible AI considerations and generative AI implementation.
+      </p>
+      <div class="cert-meta">
+        <span>Exam: ME1-C02</span>
+        <span>Earned: October 2026</span>
+        <span>Valid through: October 2029</span>
+      </div>
+      <div class="cert-actions">
+        <!-- Replace the placeholder URL with your actual Credly badge URL. -->
+        <a class="cert-link" href="YOUR_CREDLY_BADGE_URL" target="_blank" rel="noopener">View verified credential ↗</a>
       </div>
     </div>
   </div>
@@ -559,13 +662,13 @@ footer{
 
 <!-- EXPERIENCE -->
 <section id="experience" class="reveal">
-  <div class="section-label">// 02 · Experience</div>
+  <div class="section-label">// 03 · Experience</div>
   <h2 class="section-title">Where I've built.</h2>
   <p class="section-sub">Shipping data products across Singapore's public sector infrastructure.</p>
   <div class="exp-list">
     <div class="exp-item">
       <div class="exp-meta">
-        <div class="exp-period">2022 – Present</div>
+        <div class="exp-period">2022 – 2026</div>
         <div class="exp-org">HDB · DSAI CoE</div>
       </div>
       <div>
@@ -611,7 +714,7 @@ footer{
 
 <!-- PROJECTS -->
 <section id="projects" class="reveal">
-  <div class="section-label">// 03 · Projects</div>
+  <div class="section-label">// 04 · Projects</div>
   <h2 class="section-title">Products built end-to-end.</h2>
   <p class="section-sub">Three data-science-led products from problem framing to production, inside Singapore's public sector.</p>
 
@@ -799,19 +902,22 @@ footer{
 
 <!-- SKILLS -->
 <section id="skills" class="reveal">
-  <div class="section-label">// 04 · Skills</div>
+  <div class="section-label">// 05 · Skills</div>
   <h2 class="section-title">What I bring.</h2>
   <p class="section-sub">Technical depth paired with the product thinking to know what to build — and why.</p>
   <div class="skills-grid">
     <div class="skill-group">
       <div class="skill-group-title"><span class="skill-group-icon">◈</span> AI / ML</div>
       <ul class="skill-list">
+        <li>Classical ML algorithms</li>
+        <li>Model evaluation metrics</li>
+        <li>Bias and fairness assessment</li>
+        <li>Model monitoring and drift concepts</li>
         <li>RAG systems & vector search</li>
         <li>LangGraph · LangChain</li>
         <li>OpenAI embeddings & LLMs</li>
-        <li>Custom eval frameworks</li>
-        <li>Semantic caching</li>
-        <li>Prompt engineering</li>
+        <li>Custom evaluation frameworks</li>
+        <li>Semantic caching · Prompt engineering</li>
       </ul>
     </div>
     <div class="skill-group">
@@ -855,7 +961,7 @@ footer{
 
 <!-- CONTACT -->
 <section id="contact" class="reveal">
-  <div class="section-label">// 05 · Contact</div>
+  <div class="section-label">// 06 · Contact</div>
   <h2 class="section-title">Let's build something that matters.</h2>
   <p class="section-sub" style="margin:0 auto 0;text-align:center;max-width:480px">
     Open to AI Product Manager roles, Geospatial Analytics/GIS roles, and conversations about AI-powered products in the public or enterprise sector.
